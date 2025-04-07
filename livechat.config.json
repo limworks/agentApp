@@ -1,5 +1,28 @@
 {
     "id": "Zp5HwdANR",
     "name": "SummaryChat",
-    "product": "livechat"
+    "product": "livechat",
+    "blocks": {
+        "authorization": {
+            "clientId": "e1b6e4494034f80bc943fb7c252e2ba4",
+            "type": "javascript_app",
+            "redirectUri": "https://agent-app-liutauras-projects.vercel.app"
+        },
+        "repository": {
+            "provider": "github",
+            "name": "limworks/agentApp",
+            "branch": "master"
+        },
+        "deployment": {
+            "provider": "vercel",
+            "url": "https://agent-app-liutauras-projects.vercel.app"
+        },
+        "widgets": {
+            "t1IxWEcUtV": {
+                "url": "https://agent-e18pfv9g7-liutauras-projects.vercel.app/",
+                "placement": "plugin",
+                "initialState": "{\"customerDetailsSections\":[{\"title\":\"Details section 0\",\"components\":[{\"id\":\"header[0]\",\"type\":\"header\",\"data\":{\"name\":\"Chatsum\"}},{\"id\":\"line[2]\",\"type\":\"line\"}]}]}"
+            }
+        }
+    }
 }
